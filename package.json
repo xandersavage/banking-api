@@ -1,0 +1,22 @@
+{
+  "name": "banking-app-api",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "dev": "env-cmd -f ./config/dev.env nodemon server.js",
+		"prod": "env-cmd -f ./config/prod.env nodemon server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "env-cmd": "^10.1.0",
+    "express": "^4.21.0",
+    "mongoose": "^8.6.3",
+    "validator": "^13.12.0"
+  }
+}
